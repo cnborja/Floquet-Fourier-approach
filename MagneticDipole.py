@@ -1,9 +1,11 @@
 
 """
 
-Calculate and plot the eigenvalues of the hamiltonian for a magnetic dipole in a magnetic field subject to a time dependent periodic
-perturbation, in this case a circularly polarized field (Rabi ploblem)
-or a linearly polarized field, using Floquet-Fourier approach.
+Calculate and plot the quasienergy spectra of the hamiltonian for a 
+magnetic dipole in presence of a magnetic field subject to a time 
+dependent periodic perturbation using Floquet-Fourier approach. In 
+this case we consider a circularly polarized field (Rabi ploblem) or a 
+linearly polarized field as the perturbation.
 
 Author: Carla Borja Espinosa
 Date: Julio 2018
