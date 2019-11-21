@@ -1,9 +1,13 @@
 # Floquet-Fourier-approach
 
-In this repository you can find python codes to calculate and plot the quasienergy spectra of diferent physical systems which hamiltonian description is the sum of a free evolution and a time-dependent periodic perturbation. We use the Floquet-Fourier approach to obtain the time-independent FLoquet hamiltonian. 
+Python scripts to calculate and plot the quasienergy spectra from the time-independent Floquet hamiltonian of two different physical systems which hamiltonian is expresed as the sum of a free evolution and a time-dependent periodic perturbation. 
 
-For more details about Floquet theory, see the document FloquetTheory.pdf
+For more details about Floquet theory, see the document https://github.com/cnborja/Floquet-Fourier-approach/blob/master/Floquet_Theory.pdf
 
-The systems under consideration are:
-- Magnetic dipole in presence of a magnetic field
-- Su-Schrieffer-Hegger (SSH) model
+The included systems are:
+- A magnetic dipole in presence of a magnetic field and a polarized electric field
+- Su-Schrieffer-Hegger model (one-dimensional topological insulator) with hoppings modulated in time
+
+To run the script you need Python3 and the packages numpy, sympy and matplotlib. 
+
+
